@@ -77,7 +77,7 @@ public class StubBinding implements IBinding {
 	 */
 
 	@Override
-	public <T> T getAdapter(Class<T> arg0) {
+	public Object getAdapter(Class arg0) {
 		return null;
 	}
 
